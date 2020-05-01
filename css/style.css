@@ -1,0 +1,200 @@
+html, body {
+    font-family: 'PF Encore Sans Pro', sans-serif;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.pink {
+    color: #fc635e;
+}
+
+/***** Fonts templates ******/
+.medium {
+    font-family: 'PF Encore Sans Pro Medium';
+}
+.light {
+    font-family: 'PF Encore Sans Pro Light';
+}
+.bold {
+    font-family: 'PF Encore Sans Pro Bold';
+}
+.thin {
+    font-family: 'PF Encore Sans Pro Thin';
+}
+/******************************/
+
+
+/*
+*** header
+*/
+
+.header {
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo:hover {
+    cursor: pointer;
+}
+.header__logo_image {
+    position: relative;
+    width: 70px; 
+    height: 40.41px;
+    background-color: #fc645f;
+    margin: 20.21px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo_image:before,
+.header__logo_image:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+
+.header__logo_image:before {
+    bottom: 100%;
+    border-bottom: 20.21px solid #fc645f;
+}
+
+.header__logo_image:after {
+    top: 100%;
+    width: 0;
+    border-top: 20.21px solid #fc645f;
+}
+.header__logo_image > span {
+    text-align: center;
+    color: #0c252d;
+    font-size: 35.7px;
+}
+.header__logo_name {
+    text-transform: capitalize;
+    font-size: 24.08px;
+    margin-left: 17px;
+    color: #fff;
+}
+.header__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__navigation > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__navigation > ul > :nth-child(2) {
+    margin: 0 45px;
+}
+.header__navigation > ul > :nth-child(3) {
+    margin-right: 45px;
+}
+.header__navigation > ul > li > a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: solid 0 #fc635e;
+    transition: color 0.4s linear, border 0.4s linear;
+}
+.header__navigation > ul > li > a:hover {
+    color: #fc635e;
+    border-bottom: solid 4px #fc635e;
+}
+
+
+
+/*
+*** main
+*/
+
+/*
+* section 1,, greeting
+*/
+.greeting {
+    background-image: url("../images/greetingbg.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.greeting__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.greeting__titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+}
+.greeting__titles_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.titles__heading_text {
+    font-size: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+.titles__heading_line {
+    background-color: #4e4c4d;
+    width: 10%;
+    padding: 3px 0;
+}
+.greeting__titles_subheading {
+    font-size: 24px;
+    margin-top: 33px;
+}
+.greeting__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+.greeting__button_link {
+    color: #fc635e;
+    display: block;
+    padding: 16px 36px;
+    border: solid 2px #fc635e;
+    /* border-style: dashed; */
+    border-radius: 6px;
+    font-size: 24px;
+}
+.greeting__image {
+    position: relative;
+}
+.greeting__image > img {
+    width: 100%;
+}
