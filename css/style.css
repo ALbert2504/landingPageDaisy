@@ -47,7 +47,7 @@ html, body {
     align-items: center;
     justify-content: center;
 }
-.header__logo:hover {
+.header__logo_image:hover, .header__logo_name:hover {
     cursor: pointer;
 }
 .header__logo_image {
@@ -112,7 +112,7 @@ html, body {
     color: #fff;
     text-transform: uppercase;
     border-bottom: solid 0 #fc635e;
-    transition: color 0.4s linear, border 0.4s linear;
+    transition: color 0.4s linear, border 0.2s linear;
 }
 .header__navigation > ul > li > a:hover {
     color: #fc635e;
@@ -233,6 +233,238 @@ html, body {
     transition: color 0.3s linear, background-color 0.3s linear;
 }
 .scrollDown:hover {
+    color: #fff;
+    background-color: #fc635e;
+}
+
+
+
+/*
+* section 2,, what can you receive
+*/
+.receive {
+    padding: 68px 0 94px;
+    position: relative;
+}
+.receive__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.receive__titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.receive__titles_heading {
+    color: #868686;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 2px #adadad;
+    padding-bottom: 13px;
+}
+.receive__titles_subheading {
+    font-size: 20px;
+    color: #adadad;
+    text-align: center;
+    max-width: 550px;
+    margin-top: 24px;
+    line-height: 1.4;
+}
+.reveive__services {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 85px;
+}
+.receive__services_servicebox1, .receive__services_servicebox2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+/***** hexagon 1 ******/
+.service__hexagon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 98px; 
+    height: 56.58px;
+    background-color: #fc635e;
+    margin: 28.29px 0;
+    border-left: solid 5px #fe8682;
+    border-right: solid 5px #fe8682;
+}
+
+.service__hexagon1:before,
+.service__hexagon1:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 69.30px;
+    height: 69.30px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 9.3518px;
+}
+
+.service__hexagon1:before {
+    top: -34.6482px;
+    border-top: solid 7.0711px #fe8682;
+    border-right: solid 7.0711px #fe8682;
+}
+
+.service__hexagon1:after {
+    bottom: -34.6482px;
+    border-bottom: solid 7.0711px #fe8682;
+    border-left: solid 7.0711px #fe8682;
+}  
+/**********************/
+
+/***** hexagon 2 ******/
+.service__hexagon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 98px; 
+    height: 56.58px;
+    background-color: #ffffff;
+    margin: 28.29px 0;
+    border-left: solid 5px #fc635e;
+    border-right: solid 5px #fc635e;
+}
+
+.service__hexagon2:before,
+.service__hexagon2:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 69.30px;
+    height: 69.30px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 9.3518px;
+}
+
+.service__hexagon2:before {
+    top: -34.6482px;
+    border-top: solid 7.0711px #fc635e;
+    border-right: solid 7.0711px #fc635e;
+}
+
+.service__hexagon2:after {
+    bottom: -34.6482px;
+    border-bottom: solid 7.0711px #fc635e;
+    border-left: solid 7.0711px #fc635e;
+}
+/**********************/
+
+/**** services styling ****/
+.receive__service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.service__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service__heading {
+    position: relative;
+    color: #868686;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 22px 0 25px;
+    /* padding-bottom: 12px; */
+}
+.service__heading::after {
+    content: "";
+    /* position: absolute; */
+    padding-top: 12px;
+    display: block;
+    margin: 0 auto;
+    width: 57px;
+    border-bottom: 1px solid #adadad;
+}
+.service__subheading {
+    color: #c3c3c3;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+.service__hexagon_image > img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    display: block;
+}
+/**************************/
+.receive__scrollDown {
+    bottom: 14px;
+}
+
+
+
+/*
+* section 3,, expand your business
+*/
+.business {
+    padding: 91px 0 100px;
+    background-image: url("../images/businessbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.business__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0 100px;
+    border: solid 9px rgba(128, 128, 128, 0.322);
+}
+.business__heading {
+    font-size: 50.86px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.business__button {
+    display: block;
+    margin-top: 50px;
+    padding: 16px 60px;
+    border: solid 2px #fc635e;
+    border-radius: 6px;
+    color: #fc635e;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23.94px;
+    transition: color 0.3s linear, background-color 0.3s linear;
+}
+.business__button:hover {
     color: #fff;
     background-color: #fc635e;
 }
