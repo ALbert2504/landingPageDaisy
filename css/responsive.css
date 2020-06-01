@@ -1,0 +1,104 @@
+@media only screen and (max-width: 992px) {
+    .header__navigation {
+        display: none;
+    }
+    .header__burgermenu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    /*
+    * section 4,, process
+    */
+    .process__steps {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: unset;
+    }
+    .process__steps > :nth-child(n) {
+        position: relative;
+        top: unset;
+        left: unset;
+    }
+    .process__steps_img .line {
+        display: none;
+    }
+    .process__steps_step1  {
+        margin-left: -105px;
+    }
+    .process__steps_step2 {
+        margin-right: -105px;
+    }
+    .process__steps_step3 {
+        margin-left: -105px;
+    }
+
+    /*
+    * section 1,, greeting
+    */
+    .titles__heading_text  {
+        font-size: 47px;
+        width: 78%;
+    }
+
+    /*
+    * section 2,, what can you receive
+    */
+    .reveive__services {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .receive__services_servicebox1,
+    .receive__services_servicebox2 {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .receive__services_servicebox2 {
+        margin-top: 20px;
+    }
+    .receive__service {
+        width: 40%;
+    }
+
+    /*
+    *section 5,, what do we do
+    */
+    .wedo__desc {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .wedo__desc_image {
+        width: 75%;
+    }
+    .wedo__desc_text {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    /*
+    * section 6,, advertising
+    */
+    .adv__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .adv__desc {
+        margin-top: 10px;
+        width: 90%;
+    }
+    .adv__image {
+        width: 75%;
+    }
+}
