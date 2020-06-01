@@ -18,3 +18,6 @@ const imgColors = document.querySelector('.gallery__image4 > img');
 const imgBus = document.querySelector('.gallery__image5 > img');
 imgColors.style.height = `${imgBikeHeight}px`;
 imgBus.style.height = `${imgBikeHeight}px`;
+
+
+/**************************** Section 10,, comments **************************/
