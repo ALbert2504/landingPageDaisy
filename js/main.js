@@ -19,5 +19,15 @@ const imgBus = document.querySelector('.gallery__image5 > img');
 imgColors.style.height = `${imgBikeHeight}px`;
 imgBus.style.height = `${imgBikeHeight}px`;
 
+window.addEventListener('resize', () => {
+    // if(innerWidth < 940) {
+        imgGift.style.height = `${imgWebpageHeight}px`;
+        imgCars.style.height = `${imgWebpageHeight}px`;
+        imgColors.style.height = `${imgBikeHeight}px`;
+        imgBus.style.height = `${imgBikeHeight}px`;
+        console.log('lava');
+    // }
+})
+
 
 /**************************** Section 10,, comments **************************/

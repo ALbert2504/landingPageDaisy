@@ -101,4 +101,270 @@
     .adv__image {
         width: 75%;
     }
+
+    /*
+    * section 7,, marketing
+    */
+    .marketing__content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .marketing__desc {
+        margin-top: 10px;
+        width: 90%;
+    }
+    .marketing__image {
+        width: 75%;
+    }
+    
+    /*
+    * section 3,, business
+    */
+    .business__heading {
+        font-size: 45.86px;
+    }
+    .business__button {
+        font-size: 23.94px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .titles__heading_text {
+        font-size: 40px;
+        width: 74%;
+    }
+    .greeting__titles_subheading {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .titles__heading_text {
+        font-size: 39px;
+        width: 78%;
+    }
+    .greeting__titles_subheading {
+        font-size: 19px;
+    }
+
+    /*
+    * section 8,, portfolio
+    */
+    .portfolio__gallery {
+        flex-direction: column;
+    }
+    .portfolio__gallery_box2 {
+        flex-direction: column-reverse;
+        margin-top: 12px;
+    }
+    .portfolio__gallery_box2,
+    .portfolio__gallery_box1 {
+        width: 85%;
+    }
+    .gallery__imagebox2 {
+        margin-bottom: 0;
+        margin-top: 12px;
+    }
+    .gallery__image1 {
+        width: 100%;
+    }
+    .gallery__image6 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    /*
+    * section 9,, team
+    */
+    .team__members {
+        flex-direction: column;
+    }
+    .team__members > :nth-child(2) {
+        margin: 25px 0;
+    }
+    .team__member {
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .member__texts {
+        width: 50%;
+    }
+
+
+    /*
+    * section 9,, team 
+    */
+    .comments__user {
+        flex-direction: column;
+        margin-top: 42px;
+    }
+    .comments__user_comment {
+        width: 60%;
+        text-align: center;
+    }
+    .comments__user_nameprof {
+        align-items: center;
+        width: 60%;
+        text-align: center;
+    }
+    .comments__user_photo {
+        margin: 76.2px 0;
+    }
+    .user__name {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .titles__heading_text {
+        font-size: 36px;
+        width: 80%;
+    }
+
+    /*
+    * headings
+    */
+    .receive__titles_heading,
+    .process__titles_heading,
+    .wedo__heading,
+    .team__heading,
+    .portfolio__heading {
+        font-size: 22px;
+    }
+
+    /*
+    * subheadings
+    */
+    .receive__titles_subheading,
+    .process__titles_subheading {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .member__texts {
+        margin: 0;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .portfolio__nav > ul {
+        flex-direction: column;
+    }
+    .portfolio__nav > ul span {
+        display: none;
+    }
+    .portfolio__nav > ul > li:nth-child(2n+1) {
+        margin: 7px 0;
+    }
+
+    /*
+    * paddings decrease
+    */
+    .receive {
+        padding: 50px 0 94px 0;
+    }
+    .wedo {
+        padding: 50px 0 96px 0;
+    }
+    .adv, .marketing {
+        padding: 50px 0 96px 0;
+    }
+    .portfolio {
+        padding: 50px 0 67px 0;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .titles__heading_text {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .titles__heading_text {
+        font-size: 34px;
+    }
+
+    /*
+    * section 2,, what can you receive
+    */
+    .receive__services_servicebox1,
+    .receive__services_servicebox2 {
+        flex-direction: column;
+    }
+    .receive__services_servicebox1 > :nth-child(2),
+    .receive__services_servicebox2 > :nth-child(2) {
+        margin-top: 20px;
+    }
+    .receive__service {
+        width: 75%;
+        border: 2px solid #fc635e;
+        padding: 15px;
+        border-radius: 7px;
+    }
+}
+
+
+@media only screen and (max-width: 636px) {
+    .titles__heading_text {
+        font-size: 34px;
+        width: 82%;
+    }
+}
+@media only screen and (max-width: 625px) {
+    .titles__heading_text {
+        font-size: 24px;
+        width: 82%;
+    }
+    .greeting__titles_subheading {
+        font-size: 14px;
+    }
+    
+
+    /*
+    * section 3,, business
+    */
+    .business__heading {
+        font-size: 22px;
+    }
+    .business__button {
+        font-size: 16px;
+    }
+
+    /*
+    * headings
+    */
+    .receive__titles_heading,
+    .process__titles_heading,
+    .wedo__heading, .team__heading,
+    .portfolio__heading {
+        font-size: 16px;
+    }
+
+    /*
+    * subheadings
+    */
+    .receive__titles_subheading, .process__titles_subheading {
+        font-size: 13px;
+    }
+
+    /*
+    * other headings
+    */
+    .desc__texts_heading,
+    .adv__desc_heading,
+    .marketing__desc_heading {
+        font-size: 16px;
+    }
+    /* other heading's descriptions*/
+    .marketing__desc_par,
+    .desc__texts_par,
+    .adv__desc_par {
+        font-size: 13px;
+        line-height: 1.4;
+    }
 }

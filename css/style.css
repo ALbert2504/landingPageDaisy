@@ -1630,7 +1630,7 @@ html, body {
     border-left: solid 10px #fc8682;
     border-right: solid 10px #fc8682;
     left: calc(50% - 94px);
-    bottom: -16.5%;
+    bottom: calc(0% - 108.54px);
     display: flex;
     flex-direction: column;
     align-items: center;
