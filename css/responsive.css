@@ -368,3 +368,30 @@
         line-height: 1.4;
     }
 }
+
+@media only screen and (max-width: 565px) {
+    .team__member {
+        padding: 15px;
+        flex-direction: column;
+        border: solid 2px #fc635e;
+        border-radius: 3px;
+    }
+    .member__texts {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .titles__heading_line {
+        display: none;
+    }
+    .titles__heading_text {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .titles__heading_text {
+        font-size: 21px;
+    }
+}

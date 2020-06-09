@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:daisy" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2977f7b-09fc-4f60-9731-0816b15fd3b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1d3TBB17HLCtNjRsOn2B880TR4u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2977f7b-09fc-4f60-9731-0816b15fd3b0" name="Default Changelist" comment="" />
+      <created>1591652640557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591652640557</updated>
+      <workItem from="1591652651309" duration="2505000" />
+      <workItem from="1591686389556" duration="96000" />
+      <workItem from="1591701403791" duration="45000" />
+      <workItem from="1591701498964" duration="353000" />
+      <workItem from="1591714691992" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="227" width="360" height="274" key="#Notifications" timestamp="1591715151940">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="227" width="360" height="274" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1591715151940" />
+    <state x="123" y="123" width="1146" height="488" key="DiffContextDialog" timestamp="1591654850270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="123" y="123" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1591654850270" />
+    <state x="475" y="109" key="FileChooserDialogImpl" timestamp="1591655095452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591655095452" />
+    <state x="197" y="12" key="SettingsEditor" timestamp="1591701452365">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="197" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591701452365" />
+    <state x="288" y="100" key="Vcs.Push.Dialog.v2" timestamp="1591654357103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="288" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591654357103" />
+    <state x="352" y="166" key="run.anything.popup" timestamp="1591654500707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="352" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591654500707" />
+  </component>
+</project>

@@ -196,6 +196,7 @@ html, body {
 .greeting__titles_subheading {
     font-size: 24px;
     margin-top: 33px;
+    text-align: center;
 }
 .greeting__button {
     display: flex;
@@ -1717,3 +1718,4 @@ footer > :nth-child(n):hover {
     color: #fff;
     margin-left: 22px;
 }
+
